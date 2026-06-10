@@ -1,0 +1,46 @@
+START APP
+
+Display Splash Screen
+Wait 3 seconds
+Open Main Screen
+
+Create arrays:
+ItemNames[]
+Categories[]
+Quantities[]
+Comments[]
+
+Add sample data to arrays
+
+Main Screen:
+Display Total Items Packed
+
+When Add Gear button clicked:
+    Read Item Name
+    Read Category
+    Read Quantity
+    Read Comment
+
+    IF any field is empty THEN
+         Show error message
+    ELSE
+         Add values to arrays
+         Show success message
+    ENDIF
+
+When View Details button clicked:
+    Open Detailed View Screen
+
+Detailed View Screen:
+    FOR each item in arrays
+        Display:
+        Item Name
+        Category
+        Quantity
+        Comment
+    ENDFOR
+
+When Back To Base button clicked:
+    Return to Main Screen
+
+END APP
