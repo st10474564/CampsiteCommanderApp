@@ -1,6 +1,6 @@
-# 🏕️ Campsite Commander
+ Campsite Commander
 
-## Overview
+ Overview
 
 Campsite Commander is an Android application developed in Kotlin using Android Studio. The purpose of the application is to help outdoor adventurers manage camping gear and food supplies by creating and viewing a packing checklist.
 
@@ -17,7 +17,7 @@ The application demonstrates the use of:
 
 ---
 
-## Objective
+ Objective
 
 The application allows users to:
 
@@ -30,15 +30,15 @@ The application allows users to:
 
 ---
 
-## Features
+ Features
 
-### Splash Screen
+ Splash Screen
 
 - Displays the Campsite Commander logo and title
 - Shows for 3 seconds (3000ms)
 - Automatically navigates to the Main Screen
 
-### Main Screen
+ Main Screen
 
 - Enter Item Name
 - Enter Category
@@ -48,7 +48,7 @@ The application allows users to:
 - View Detailed List button
 - Display Total Items Packed
 
-### Detailed View Screen
+ Detailed View Screen
 
 - Displays all gear information
 - Shows:
@@ -60,7 +60,7 @@ The application allows users to:
 
 ---
 
-## Technologies Used
+ Technologies Used
 
 - Kotlin
 - Android Studio
@@ -70,7 +70,7 @@ The application allows users to:
 
 ---
 
-## Data Structures
+ Data Structures
 
 The application uses parallel arrays to store camping information.
 
@@ -79,9 +79,8 @@ val itemNames = ArrayList<String>()
 val categories = ArrayList<String>()
 val quantities = ArrayList<Int>()
 val comments = ArrayList<String>()
-```
 
-### Sample Data
+Sample Data
 
 | Item | Category | Quantity | Comment |
 |--------|----------|----------|----------|
@@ -91,7 +90,7 @@ val comments = ArrayList<String>()
 
 ---
 
-## Loop Implementation
+ Loop Implementation
 
 A loop is used to calculate the total quantity of packed items.
 
@@ -105,7 +104,7 @@ for (qty in quantities) {
 
 ---
 
-## Navigation Structure
+Navigation Structure
 
 ```text
 SplashActivity
@@ -119,7 +118,7 @@ MainActivity
 
 ---
 
-## Error Handling
+ Error Handling
 
 The application validates user input before adding gear.
 
@@ -148,7 +147,7 @@ if(item.isEmpty() ||
 
 ---
 
-## Logging
+ Logging
 
 The application uses Logcat messages for debugging.
 
@@ -160,7 +159,7 @@ Log.d("APP", "New gear added")
 
 ---
 
-## How to Run
+ How to Run
 
 1. Open Android Studio.
 2. Clone the repository from GitHub.
@@ -171,47 +170,47 @@ Log.d("APP", "New gear added")
 
 ---
 
-## Screenshots
+ Screenshots
 
-### Splash Screen
-
-Insert screenshot here.
-
-### Main Screen
+ Splash Screen
 
 Insert screenshot here.
 
-### Add Gear Example
+ Main Screen
 
 Insert screenshot here.
 
-### Detailed View Screen
+ Add Gear Example
 
 Insert screenshot here.
 
-### Logcat Output
+ Detailed View Screen
+
+Insert screenshot here.
+
+ Logcat Output
 
 Insert screenshot here.
 
 ---
 
-## Learning Outcomes Achieved
+ Learning Outcomes Achieved
 
-- ✅ Arrays
-- ✅ Parallel Arrays
-- ✅ Loops
-- ✅ User Input
-- ✅ Navigation
-- ✅ Splash Screen
-- ✅ Error Handling
-- ✅ Logging
-- ✅ Kotlin Development
-- ✅ Android Studio Development
-- ✅ GitHub Version Control
+-  Arrays
+-  Parallel Arrays
+-  Loops
+-  User Input
+-  Navigation
+-  Splash Screen
+-  Error Handling
+-  Logging
+-  Kotlin Development
+-  Android Studio Development
+-  GitHub Version Control
 
 ---
 
-## Author
+ Author
 
 **Mpho Rantete**
 
